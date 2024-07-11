@@ -55,7 +55,7 @@ def main():
 
     
     # --- Header ---
-    st.html("""<h1 style="text-align: center; color: #6ca395;">🤖 <i>The OmniChat</i> 💬 By Shafi </h1>""")
+    st.html("""<h1 style="text-align: center; color: #6ca395;">🤖 <i>The OmniChat</i> 💬 </h1>""")
 
     # --- Side Bar ---
     with st.sidebar:
@@ -186,9 +186,6 @@ def main():
                 )
                 audio_prompt = transcript.text
 
-            #author message
-            st.write("#")
-            st.write(" Made With Love By Shafi Sk")
 
         # Chat input
         if prompt := st.chat_input("Hi Buddy! Ask me anything...") or audio_prompt:
