@@ -55,7 +55,7 @@ def main():
 
     
     # --- Header ---
-    st.html("""<h1 style="text-align: center; color: #6ca395;">🤖 <i>The OmniChat</i> 💬 </h1>""")
+    st.html("""<h1 style="text-align: center; color: #6ca395;">🤖 <i>The OmniAIAgent</i> 💬 </h1>""")
 
     # --- Side Bar ---
     with st.sidebar:
