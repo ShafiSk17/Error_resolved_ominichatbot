@@ -17,7 +17,7 @@ def stream_llm_response(client, model_params):
     response_message = ""
 
     for chunk in client.chat.completions.create(
-        model=model_params["model"] if "model" in model_params else "gpt-4.0-2024-05-13",
+        model=model_params["model"] if "model" in model_params else "gpt-4o-mini",
         messages=st.session_state.messages,
         temperature=model_params["temperature"] if "temperature" in model_params else 0.3,
         max_tokens=4096,
